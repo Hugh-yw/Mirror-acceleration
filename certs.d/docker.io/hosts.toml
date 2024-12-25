@@ -1,0 +1,10 @@
+server = "https://docker.io"
+
+[host."https://docker.m.daocloud.io"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://hub.mirrorify.net"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://proxy.1panel.live"]
+  capabilities = ["pull", "resolve", "push"]

@@ -1,0 +1,7 @@
+server = "https://quay.io"
+ 
+[host."https://quay.m.daocloud.io"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://quay.mirrorify.net"]
+  capabilities = ["pull", "resolve", "push"]

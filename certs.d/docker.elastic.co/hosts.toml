@@ -1,0 +1,7 @@
+server = "https://docker.elastic.co"
+ 
+[host."https://elastic.m.daocloud.io"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://elastic.mirrorify.net"]
+  capabilities = ["pull", "resolve", "push"]

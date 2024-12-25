@@ -1,0 +1,10 @@
+server = "https://ghcr.io"
+ 
+[host."https://ghcr.m.daocloud.io"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://ghcr.mirrorify.net"]
+  capabilities = ["pull", "resolve", "push"]
+
+[host."https://ghcr.monlor.com"]
+  capabilities = ["pull", "resolve", "push"]
